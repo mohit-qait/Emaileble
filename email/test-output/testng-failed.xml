@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SuiteNameHere]">
+  <listeners>
+    <listener class-name="Report.CustomTestNGReporter"/>
+  </listeners>
+  <test name="Tests">
+    <classes>
+      <class name="Demo.TestDemo"/>
+      <class name="Demo.TestClass1"/>
+      <class name="Demo.TestClass2"/>
+      <class name="Demo.TestClass3"/>
+      <class name="Demo.TestClass4"/>
+    </classes>
+  </test> <!-- Tests -->
+  <test name="Tests(failed)">
+    <classes>
+      <class name="Demo.TestClass2">
+        <methods>
+          <include name="class2_Method4"/>
+        </methods>
+      </class> <!-- Demo.TestClass2 -->
+      <class name="Demo.TestClass1">
+        <methods>
+          <include name="class2_Method4"/>
+        </methods>
+      </class> <!-- Demo.TestClass1 -->
+      <class name="Demo.TestClass3">
+        <methods>
+          <include name="class2_Method4"/>
+          <include name="class2_Method2"/>
+        </methods>
+      </class> <!-- Demo.TestClass3 -->
+      <class name="Demo.TestClass4">
+        <methods>
+          <include name="class2_Method3"/>
+          <include name="class2_Method4"/>
+        </methods>
+      </class> <!-- Demo.TestClass4 -->
+      <class name="Demo.TestDemo">
+        <methods>
+          <include name="class1_Method2"/>
+        </methods>
+      </class> <!-- Demo.TestDemo -->
+    </classes>
+  </test> <!-- Tests(failed) -->
+</suite> <!-- Failed suite [SuiteNameHere] -->
