@@ -11,6 +11,7 @@
       <class name="Demo.TestClass2"/>
       <class name="Demo.TestClass3"/>
       <class name="Demo.TestClass4"/>
+      <class name="Demo.myEx"/>
     </classes>
   </test> <!-- Tests -->
   <test name="Tests(failed)">

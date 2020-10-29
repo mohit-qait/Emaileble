@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">  
+<suite name="SuiteNameHere"> 
+<listeners>
+<listener class-name="Report.CustomTestNGReporter" />
+</listeners> 
+<test name="Tests">  
+<classes>  
+<class name="Demo.TestDemo"></class>
+<class name="Demo.TestClass1"></class>
+<class name="Demo.TestClass2"></class>
+<class name="Demo.TestClass3"></class>
+<class name="Demo.TestClass4"></class>
+ 
+</classes>  
+</test>  
+
+</suite> 

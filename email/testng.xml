@@ -11,6 +11,8 @@
 <class name="Demo.TestClass2"></class>
 <class name="Demo.TestClass3"></class>
 <class name="Demo.TestClass4"></class>
+<class name="Demo.myEx"></class>
+
  
 </classes>  
 </test>  
